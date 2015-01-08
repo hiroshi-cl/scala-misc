@@ -1,5 +1,11 @@
 # scala-misc
 
+## TODO
+
+Write a reference manual.
+
+## English
+
 This project uses SBT.
 
 Currently, this project consists of 4 sub-micro-projects:
@@ -16,7 +22,7 @@ Currently, this project consists of 4 sub-micro-projects:
   Different from other macro libraries providing CPS transformation (e.g. Effectfully, Scala Async, Scala Workflow, etc.), library developers can hide macro keywords by using byname macro.
 
 
-# 日本語
+## 日本語
 
 このプロジェクトは SBT を使っています.
 
