@@ -23,6 +23,8 @@ lazy val infixify = project.settings(defaultSetting:_*)
 
 lazy val macro_base = project.dependsOn(infixify).settings(defaultSetting:_*)
 
+lazy val java8_adapter = project.dependsOn(infixify, macro_base).settings(defaultSetting: _*)
+
 lazy val byname_macro = project.dependsOn(infixify, macro_base).settings(defaultSetting:_*)
 
 lazy val cps_macro = project.dependsOn(infixify, macro_base, byname_macro).settings(defaultSetting: _*)

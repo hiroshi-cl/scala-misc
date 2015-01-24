@@ -8,7 +8,7 @@ Write a reference manual.
 
 This project uses SBT.
 
-Currently, this project consists of 4 sub-micro-projects:
+Currently, this project consists of 5 sub-micro-projects:
 
 1. infixify: infixify all two-parameter function and postfixify all one-parameter function.
   For example, `add(a, b)` => `a *^* (add, b)`; `not(b)` => `b *^ not`.
@@ -20,13 +20,13 @@ Currently, this project consists of 4 sub-micro-projects:
   Shift/resets (both of answer type modification enabled version and disabled version) are also available.
   (Slightly more type annotations is required than CPS plugin.)
   Different from other macro libraries providing CPS transformation (e.g. Effectfully, Scala Async, Scala Workflow, etc.), library developers can hide macro keywords by using byname macro.
-
+5. java8 adapter: supports to use Java 8 functional interfaces from Scala.
 
 ## 日本語
 
 このプロジェクトは SBT を使っています.
 
-現在、このプロジェクトは4つのマイクロプロジェクトからなっています:
+現在、このプロジェクトは5つのマイクロプロジェクトからなっています:
 
 1. infixify: すべての2引数関数を中置化し、すべての1引数関数を後置化します。
   例: `add(a, b)` => `a *^* (add, b)`, `not(b)` => `b *^ not`.
@@ -39,3 +39,4 @@ Currently, this project consists of 4 sub-micro-projects:
   (ただし、CPS プラグインよりも型アノテーションが多少多く必要になります)
   他の CPS 変換を提供するマクロライブラリ (例えば、 Effectfully, ScalaAsync, Scala Workflow など) と違い、
   byname macro を使うことにより、ライブラリ開発者がマクロキーワードを隠すことができます。
+5. java 8 adapter: Java 8 の functional interface を Scala から使うことを支援します。
