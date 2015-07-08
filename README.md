@@ -22,7 +22,7 @@ Currently, this project consists of 5 sub-micro-projects:
   Different from other macro libraries providing CPS transformation (e.g. Effectfully, Scala Async, Scala Workflow, etc.), library developers can hide macro keywords by using byname macro.
     1. cps macro new: another version
     2. ticket: ???
-    3. dsld: DSLs using ticket
+    3. dsls: DSLs using ticket
 5. java8 adapter: supports to use Java 8 functional interfaces from Scala.
 
 ## 日本語
